@@ -2,16 +2,12 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
 	"name": "snowflake-hol-timeseries",
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"image": "mcr.microsoft.com/devcontainers/python:3.11",
 
 	// Install conda and java features
 	"features": {
-        "ghcr.io/devcontainers/features/java:1.6.0": {
-            "version": "latest"
-        },
-        "ghcr.io/devcontainers/features/conda:1": {
-            "version": "latest"
-        }
+        "ghcr.io/devcontainers/features/java:1.6.0": {},
+        "ghcr.io/devcontainers/features/anaconda:1.1.0": {}
     },
 
 	// POST create and init conda environment
