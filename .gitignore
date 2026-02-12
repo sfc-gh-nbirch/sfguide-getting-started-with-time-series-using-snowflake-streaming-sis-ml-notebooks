@@ -173,7 +173,9 @@ streamlit/output
 
 # Notebooks
 iotstream
-iotstream.zip
+iotstream*.zip
+iotstream_orig
+iotstream_python/*.csv
 
 # Worksheets
 worksheets/test*
