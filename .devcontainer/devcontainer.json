@@ -7,7 +7,8 @@
 	// Install conda and java features
 	"features": {
         "ghcr.io/devcontainers/features/java:1.6.0": {},
-        "ghcr.io/devcontainers/features/anaconda:1.1.0": {}
+        "ghcr.io/devcontainers/features/anaconda:1.1.0": {},
+		"ghcr.io/devcontainers/features/node:1.7.1": {}
     },
 
 	// POST create and init conda environment
